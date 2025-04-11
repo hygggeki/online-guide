@@ -117,18 +117,8 @@ let accuracyCircle = null;
 let firstFix = true;
 
 function gpsToMap(lat, lng) {
-  // 實際轉換根據你自定義的 map 對應，可調整參數
-  // 這裡使用線性對應範例：南北 25.011 ~ 25.012，東西 121.532 ~ 121.533 映射到地圖像素座標
-  const refLat = 25.0107801;
-  const refLng = 121.5328210;
-  const refY = 1396;
-  const refX = 6223;
-
-  const scaleY = -100000; // 緯度向上增加，地圖 Y 軸向下
-  const scaleX = 100000;  // 經度向右增加，地圖 X 軸向右
-
-  const y = refY + (lat - refLat) * scaleY;
-  const x = refX + (lng - refLng) * scaleX;
+  const y = 636787.45 * lat - 15925085.19;
+  const x = 3087656.01 * lng - 375245314.52;
   return [y, x];
 }
 
