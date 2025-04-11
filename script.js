@@ -16,6 +16,7 @@ const layers = {
   outdoor: L.layerGroup().addTo(map),
   art: L.layerGroup().addTo(map),
   cluster: L.layerGroup().addTo(map),
+  public: L.layerGroup().addTo(map),
 };
 
 
@@ -53,6 +54,8 @@ L.marker([1766, 5326]).addTo(layers.art).bindPopup('<strong>佛球女、槓桿�
 L.marker([1828, 2616]).addTo(layers.art).bindPopup('<strong>幸運餅乾</strong>');
 L.marker([1540, 5112]).addTo(layers.cluster).bindPopup('<strong>秋紅肚房X三貓俱樂部</strong>');
 L.marker([1040, 3240]).addTo(layers.cluster).bindPopup('<strong>多磨</strong>');
+L.marker([1040, 3240]).addTo(layers.cluster).bindPopup('<strong>多磨</strong>');
+L.marker([1142, 4442]).addTo(layers.public).bindPopup('<strong>哺集乳室</strong>');
 
 
 // ========== 導覽點標記區（含 Notion 連結） ==========
