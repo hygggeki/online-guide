@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>寶藏巖線上導覽地圖</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div id="filter-controls">
+    <select id="category-select" onchange="showCategory(this.value)">
+      <option value="all">📍 顯示全部地點</option>
+      <option value="historic">🏛️ 歷史建築</option>
+      <option value="performance">🎭 展演空間</option>
+      <option value="outdoor">🌿 戶外展場</option>
+      <option value="art">🖼️ 常設藝術品</option>
+      <option value="cluster">🏠 微型群聚</option>
+    </select>
+  </div>
+  <div id="map"></div>
+
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
