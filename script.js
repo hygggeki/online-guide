@@ -38,7 +38,7 @@ L.marker([1204, 4198]).addTo(layers.historic).addTo(layers.outdoor).bindPopup('<
 L.marker([1628, 4998]).addTo(layers.historic).bindPopup('<strong>十字廣場</strong>');
 L.marker([1359, 5967]).addTo(layers.historic).bindPopup('<strong>萬新車站</strong>');
 L.marker([1460, 6110]).addTo(layers.historic).bindPopup('<strong>29菜園</strong>');
-L.marker([1224, 5321]).addTo(layers.historic).bindPopup('<strong>三角窗服務站</strong>');
+L.marker([1224, 5321]).addTo(layers.facility).bindPopup('<strong>三角窗服務站</strong>');
 L.marker([1487, 4810]).addTo(layers.performance).bindPopup('<strong>十字藝廊</strong>');
 L.marker([1412, 2388]).addTo(layers.performance).bindPopup('<strong>邊境71展間</strong>');
 L.marker([1240, 2496]).addTo(layers.performance).bindPopup('<strong>邊境52/54</strong>');
@@ -54,8 +54,16 @@ L.marker([1766, 5326]).addTo(layers.art).bindPopup('<strong>佛球女、槓桿�
 L.marker([1828, 2616]).addTo(layers.art).bindPopup('<strong>幸運餅乾</strong>');
 L.marker([1332, 2318]).addTo(layers.art).bindPopup('<strong>隱藏劇情</strong>');
 L.marker([1540, 5112]).addTo(layers.cluster).bindPopup('<strong>秋紅肚房X三貓俱樂部</strong>');
-L.marker([1040, 3240]).addTo(layers.cluster).bindPopup('<strong>多磨</strong>');
-L.marker([1040, 3240]).addTo(layers.cluster).bindPopup('<strong>多磨</strong>');
+L.marker([1040, 3240]).addTo(layers.cluster).bindPopup('<strong>多磨工作室</strong>');
+L.marker([1806, 5093]).addTo(layers.cluster).bindPopup('<strong>其他的事</strong>');
+L.marker([1895, 5095]).addTo(layers.cluster).bindPopup('<strong>51門</strong>');
+L.marker([1812, 5003]).addTo(layers.cluster).bindPopup('<strong>周靈芝創作工作室</strong>');
+L.marker([1923, 4119]).addTo(layers.cluster).bindPopup('<strong>陳治旭工藝美術創作</strong>');
+L.marker([1926, 4040]).addTo(layers.cluster).bindPopup('<strong>Kjohn 的再生軍團</strong>');
+L.marker([1554, 3875]).addTo(layers.cluster).bindPopup('<strong>Mechanman Lab</strong>');
+L.marker([1831, 3713]).addTo(layers.cluster).bindPopup('<strong>不歸鹿</strong>');
+L.marker([1340, 3701]).addTo(layers.cluster).bindPopup('<strong>尖蚪</strong>');
+L.marker([1406, 2636]).addTo(layers.cluster).bindPopup('<strong>Kaomin Studio</strong>');
 L.marker([1142, 4442]).addTo(layers.facility).bindPopup('<strong>哺集乳室</strong>');
 L.marker([1144, 4368]).addTo(layers.facility).bindPopup('<strong>飲水機</strong>');
 L.marker([808, 3880]).addTo(layers.facility).bindPopup('<strong>廁所</strong>');
@@ -89,7 +97,7 @@ L.marker([1204, 4198]).addTo(layers.historic).addTo(layers.outdoor).bindPopup('<
 L.marker([1628, 4998]).addTo(layers.historic).bindPopup('<strong>十字廣場</strong><br><a href="https://www.notion.so/1d0f1481438b807ebca5fb1f4fc6abcf?pvs=4" target="_blank">查看介紹</a>');
 L.marker([1359, 5967]).addTo(layers.historic).bindPopup('<strong>萬新車站</strong><br><a href="https://www.notion.so/1d0f1481438b80a19da4efff0ea9d240" target="_blank">查看介紹</a>');
 L.marker([1460, 6110]).addTo(layers.historic).bindPopup('<strong>29菜園</strong><br><a href="https://www.notion.so/29-1d0f1481438b80dd9901fae8473d92b5" target="_blank">查看介紹</a>');
-L.marker([1224, 5321]).addTo(layers.historic).bindPopup('<strong>三角窗服務站</strong><br><a href="https://www.notion.so/1d0f1481438b80eb8600f2f61c6891b7" target="_blank">查看介紹</a>');
+L.marker([1224, 5321]).addTo(layers.facility).bindPopup('<strong>三角窗服務站</strong><br><a href="https://www.notion.so/1d0f1481438b80eb8600f2f61c6891b7" target="_blank">查看介紹</a>');
 L.marker([1487, 4810]).addTo(layers.performance).bindPopup('<strong>十字藝廊</strong><br><a href="https://www.notion.so/1d0f1481438b809db86dee8da6da4e1e" target="_blank">查看介紹</a>');
 L.marker([1412, 2388]).addTo(layers.performance).bindPopup('<strong>邊境71展間</strong><br><a href="https://www.notion.so/71-1d1f1481438b80298b25ea3f9b52b7c6" target="_blank">查看介紹</a>');
 L.marker([1240, 2496]).addTo(layers.performance).bindPopup('<strong>邊境52/54</strong><br><a href="https://www.notion.so/52-54-1d1f1481438b80e792e9c90008883f77" target="_blank">查看介紹</a>');
