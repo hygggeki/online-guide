@@ -62,7 +62,7 @@ L.marker([808, 3880]).addTo(layers.facility).bindPopup('<strong>廁所</strong>'
 L.marker([1200, 3184]).addTo(layers.facility).bindPopup('<strong>廁所</strong>');
 L.marker([2036, 3788]).addTo(layers.facility).bindPopup('<strong>廁所</strong>');
 L.marker([1920, 3960]).addTo(layers.facility).bindPopup('<strong>廁所</strong>');
-L.marker([1734, 5099]).addTo(layers.facility).bindPopup('<strong>廁所</strong>');
+L.marker([1734, 5009]).addTo(layers.facility).bindPopup('<strong>廁所</strong>');
 L.marker([1734, 5085]).addTo(layers.facility).bindPopup('<strong>廁所</strong>');
 
 
