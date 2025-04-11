@@ -57,7 +57,17 @@ L.marker([1040, 3240]).addTo(layers.cluster).bindPopup('<strong>多磨</strong>'
 L.marker([1040, 3240]).addTo(layers.cluster).bindPopup('<strong>多磨</strong>');
 L.marker([1142, 4442]).addTo(layers.facility).bindPopup('<strong>哺集乳室</strong>');
 L.marker([1144, 4368]).addTo(layers.facility).bindPopup('<strong>飲水機</strong>');
-L.marker([808, 3072]).addTo(layers.facility).bindPopup('<strong>廁所</strong>');
+L.marker([808, 3880]).addTo(layers.facility).bindPopup('<strong>廁所</strong>');
+L.marker([1200, 3184]).addTo(layers.facility).bindPopup('<strong>廁所</strong>');
+L.marker([2036, 3788]).addTo(layers.facility).bindPopup('<strong>廁所</strong>');
+L.marker([1920, 3960]).addTo(layers.facility).bindPopup('<strong>廁所</strong>');
+L.marker([1734, 5099]).addTo(layers.facility).bindPopup('<strong>廁所</strong>');
+L.marker([1734, 5085]).addTo(layers.facility).bindPopup('<strong>廁所</strong>');
+
+
+
+
+
 
 
 // ========== 導覽點標記區（含 Notion 連結） ==========
