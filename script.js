@@ -70,7 +70,7 @@ L.marker([1368, 3098]).addTo(layers.historic).addTo(layers.performance).bindPopu
 L.marker([1004, 3634]).addTo(layers.historic).addTo(layers.outdoor).bindPopup('<strong>蓄水池</strong><br><a href="https://www.notion.so/1d0f1481438b803d85f3e12927b6b9ed" target="_blank">查看介紹</a>');
 L.marker([1160, 3750]).addTo(layers.historic).bindPopup('<strong>機槍堡</strong><br><a href="https://www.notion.so/1d0f1481438b80118e76ee0ea88b1393" target="_blank">查看介紹</a>');
 L.marker([1204, 4198]).addTo(layers.historic).addTo(layers.outdoor).bindPopup('<strong>半樓廣場</strong><br><a href="https://www.notion.so/1d0f1481438b80268b6fe9daf0dfa220" target="_blank">查看介紹</a>');
-L.marker([1628, 4998]).addTo(layers.historic).bindPopup('<strong>十字廣場</strong><br><a href="https://www.notion.so/1d0f1481438b8020a8c9d0b01325ba49" target="_blank">查看介紹</a>');
+L.marker([1628, 4998]).addTo(layers.historic).bindPopup('<strong>十字廣場</strong><br><a href="https://www.notion.so/1d0f1481438b807ebca5fb1f4fc6abcf?pvs=4" target="_blank">查看介紹</a>');
 L.marker([1359, 5967]).addTo(layers.historic).bindPopup('<strong>萬新車站</strong><br><a href="https://www.notion.so/1d0f1481438b80a19da4efff0ea9d240" target="_blank">查看介紹</a>');
 L.marker([1460, 6110]).addTo(layers.historic).bindPopup('<strong>29菜園</strong><br><a href="https://www.notion.so/29-1d0f1481438b80dd9901fae8473d92b5" target="_blank">查看介紹</a>');
 L.marker([1224, 5321]).addTo(layers.historic).bindPopup('<strong>三角窗服務站</strong><br><a href="https://www.notion.so/1d0f1481438b80eb8600f2f61c6891b7" target="_blank">查看介紹</a>');
@@ -84,7 +84,7 @@ L.marker([1202, 3336]).addTo(layers.performance).bindPopup('<strong>40號展間<
 L.marker([1392, 3396]).addTo(layers.performance).bindPopup('<strong>轉角2號</strong><br><a href="https://www.notion.so/2-1d1f1481438b80f2ab2fd702de631542" target="_blank">查看介紹</a>');
 L.marker([1628, 4036]).addTo(layers.performance).bindPopup('<strong>山城53展間</strong><br><a href="https://www.notion.so/53-1d1f1481438b8055baf8fec8eb2b101c" target="_blank">查看介紹</a>');
 L.marker([1384, 4092]).addTo(layers.performance).bindPopup('<strong>創藝小客廳</strong><br><a href="https://www.notion.so/1d1f1481438b80c38446f6d39ac084ec" target="_blank">查看介紹</a>');
-L.marker([1783, 5173]).addTo(layers.art).bindPopup('<strong>你很性感 但是 我不明白</strong><br><a href="https://www.notion.so/1d0f1481438b807ebca5fb1f4fc6abcf" target="_blank">查看介紹</a>');
+L.marker([1783, 5173]).addTo(layers.art).bindPopup('<strong>你很性感 但是 我不明白</strong><br><a href="https://www.notion.so/1d0f1481438b8020a8c9d0b01325ba49?pvs=4" target="_blank">查看介紹</a>');
 L.marker([1766, 5326]).addTo(layers.art).bindPopup('<strong>佛球女、槓桿街與石碧潭</strong><br><a href="https://www.notion.so/1d0f1481438b80ddbfb0ce7ed9a1f077" target="_blank">查看介紹</a>');
 L.marker([1828, 2616]).addTo(layers.art).bindPopup('<strong>幸運餅乾</strong><br><a href="https://www.notion.so/Fortune-Cookiss-1d0f1481438b80c1acecd1da88e8ed63" target="_blank">查看介紹</a>');
 L.marker([1540, 5112]).addTo(layers.cluster).bindPopup('<strong>秋紅肚房X三貓俱樂部</strong><br><a href="https://www.notion.so/1d0f1481438b808aa6f0cd908a5e7175" target="_blank">查看介紹</a>');
