@@ -52,6 +52,7 @@ L.marker([1384, 4092]).addTo(layers.performance).bindPopup('<strong>創藝小客
 L.marker([1783, 5173]).addTo(layers.art).bindPopup('<strong>你很性感 但是 我不明白</strong>');
 L.marker([1766, 5326]).addTo(layers.art).bindPopup('<strong>佛球女、槓桿街與石碧潭</strong>');
 L.marker([1828, 2616]).addTo(layers.art).bindPopup('<strong>幸運餅乾</strong>');
+L.marker([1332, 2318]).addTo(layers.art).bindPopup('<strong>隱藏劇情</strong>');
 L.marker([1540, 5112]).addTo(layers.cluster).bindPopup('<strong>秋紅肚房X三貓俱樂部</strong>');
 L.marker([1040, 3240]).addTo(layers.cluster).bindPopup('<strong>多磨</strong>');
 L.marker([1040, 3240]).addTo(layers.cluster).bindPopup('<strong>多磨</strong>');
