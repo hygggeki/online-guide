@@ -141,8 +141,8 @@ let accuracyCircle = null;
 let firstFix = true;
 
 function gpsToMap(lat, lng) {
-  const y = 636787.45 * lat - 15925085.19;
-  const x = 3087656.01 * lng - 375245314.52;
+  const y = 499233.76 * lat - 12484594.35;
+  const x = 2762190.65 * lng - 335690490.43;
   return [y, x];
 }
 
