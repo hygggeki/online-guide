@@ -55,7 +55,7 @@ const icons = {
 
 
 // ========== 導覽點標記區 ==========
-L.marker([1413, 6505],{icon: icons.historic}).addTo(layers.historic).bindPopup('<strong>寶藏巖寺</strong>');
+L.marker([1413, 6505],{icon: icons.historic}).addTo(layers.historic).bindPopup('<strong>寶藏巖寺</strong><br><a href="https://www.notion.so/1d0f1481438b80c48ea0e20b344327af" target="_blank">查看介紹</a>');
 L.marker([1171, 6229],{icon: icons.historic}).addTo(layers.historic).bindPopup('<strong>信箱牆</strong>');
 L.marker([1884, 4320],{icon: icons.historic}).addTo(layers.historic).bindPopup('<strong>山城廣場</strong>');
 L.marker([1984, 2376],{icon: icons.historic}).addTo(layers.historic).addTo(layers.outdoor).bindPopup('<strong>邊境小屋</strong>');
@@ -110,7 +110,7 @@ L.marker([1734, 5085]).addTo(layers.facility).bindPopup('<strong>廁所</strong>
 
 
 // ========== 導覽點標記區（含 Notion 連結） ==========
-L.marker([1413, 6505]).addTo(layers.historic).bindPopup('<strong>寶藏巖寺</strong><br><a href="https://www.notion.so/1d0f1481438b80c48ea0e20b344327af" target="_blank">查看介紹</a>');
+
 L.marker([1171, 6229]).addTo(layers.historic).bindPopup('<strong>信箱牆</strong><br><a href="https://www.notion.so/1d0f1481438b8048bdb5e1a2e3fc5ebe" target="_blank">查看介紹</a>');
 L.marker([1884, 4320]).addTo(layers.historic).bindPopup('<strong>山城廣場</strong><br><a href="https://www.notion.so/1d1f1481438b80a18c2ac431dc5d68ac" target="_blank">查看介紹</a>');
 L.marker([1984, 2376]).addTo(layers.historic).addTo(layers.outdoor).bindPopup('<strong>邊境小屋</strong><br><a href="https://www.notion.so/1d1f1481438b8088a7a1e1786fab93e1" target="_blank">查看介紹</a>');
