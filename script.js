@@ -19,26 +19,36 @@ const layers = {
   facility: L.layerGroup().addTo(map),
 };
 
+// ========== 建立各分類顏色 LayerGroupcolor ==========
+const markerColors = {
+  historic: '#D2691E',
+  performance: '#DDA0DD',
+  outdoor: '#66CDAA',
+  art: '#FA8072',
+  cluster: '#87CEFA',
+  facility: '#FF69B4'
+};
+
+
 
 // ========== 導覽點標記區 ==========
-L.marker([1413, 6505],{radius: 8,color: '#F4A460',       // 邊框色 fillColor: '#F4A460',   // 填充色
-      fillOpacity: 1,weight: 2}).addTo(layers.historic).bindPopup('<strong>寶藏巖寺</strong>');
-L.marker([1171, 6229]).addTo(layers.historic).bindPopup('<strong>信箱牆</strong>');
-L.marker([1884, 4320]).addTo(layers.historic).bindPopup('<strong>山城廣場</strong>');
-L.marker([1984, 2376]).addTo(layers.historic).addTo(layers.outdoor).bindPopup('<strong>邊境小屋</strong>');
-L.marker([807, 4770]).addTo(layers.historic).bindPopup('<strong>涼棚</strong>');
-L.marker([821, 4050]).addTo(layers.historic).bindPopup('<strong>家庭電影院</strong>');
-L.marker([904, 5126]).addTo(layers.historic).bindPopup('<strong>寶村柑仔店</strong>');
-L.marker([928, 2348]).addTo(layers.historic).bindPopup('<strong>歷史斷面</strong>');
-L.marker([1171, 2220]).addTo(layers.historic).bindPopup('<strong>麵引子</strong>');
-L.marker([1746, 2820]).addTo(layers.historic).bindPopup('<strong>上光巷</strong>');
-L.marker([1368, 3098]).addTo(layers.historic).addTo(layers.performance).bindPopup('<strong>防空洞</strong>');
-L.marker([1004, 3634]).addTo(layers.historic).addTo(layers.outdoor).bindPopup('<strong>蓄水池</strong>');
-L.marker([1160, 3750]).addTo(layers.historic).bindPopup('<strong>機槍堡</strong>');
-L.marker([1204, 4198]).addTo(layers.historic).addTo(layers.outdoor).bindPopup('<strong>半樓廣場</strong>');
-L.marker([1628, 4998]).addTo(layers.historic).bindPopup('<strong>十字廣場</strong>');
-L.marker([1359, 5967]).addTo(layers.historic).bindPopup('<strong>萬新車站</strong>');
-L.marker([1460, 6110]).addTo(layers.historic).bindPopup('<strong>29菜園</strong>');
+L.marker([1413, 6505],{color: markerColors.historic}).addTo(layers.historic).bindPopup('<strong>寶藏巖寺</strong>');
+L.marker([1171, 6229],{color: markerColors.historic}).addTo(layers.historic).bindPopup('<strong>信箱牆</strong>');
+L.marker([1884, 4320],{color: markerColors.historic}).addTo(layers.historic).bindPopup('<strong>山城廣場</strong>');
+L.marker([1984, 2376],{color: markerColors.historic}).addTo(layers.historic).addTo(layers.outdoor).bindPopup('<strong>邊境小屋</strong>');
+L.marker([807, 4770],{color: markerColors.historic}).addTo(layers.historic).bindPopup('<strong>涼棚</strong>');
+L.marker([821, 4050],{color: markerColors.historic}).addTo(layers.historic).bindPopup('<strong>家庭電影院</strong>');
+L.marker([904, 5126],{color: markerColors.historic}).addTo(layers.historic).bindPopup('<strong>寶村柑仔店</strong>');
+L.marker([928, 2348],{color: markerColors.historic}).addTo(layers.historic).bindPopup('<strong>歷史斷面</strong>');
+L.marker([1171, 2220],{color: markerColors.historic}).addTo(layers.historic).bindPopup('<strong>麵引子</strong>');
+L.marker([1746, 2820],{color: markerColors.historic}).addTo(layers.historic).bindPopup('<strong>上光巷</strong>');
+L.marker([1368, 3098],{color: markerColors.historic}).addTo(layers.historic).addTo(layers.performance).bindPopup('<strong>防空洞</strong>');
+L.marker([1004, 3634],{color: markerColors.historic}).addTo(layers.historic).addTo(layers.outdoor).bindPopup('<strong>蓄水池</strong>');
+L.marker([1160, 3750],{color: markerColors.historic}).addTo(layers.historic).bindPopup('<strong>機槍堡</strong>');
+L.marker([1204, 4198],{color: markerColors.historic}).addTo(layers.historic).addTo(layers.outdoor).bindPopup('<strong>半樓廣場</strong>');
+L.marker([1628, 4998],{color: markerColors.historic}).addTo(layers.historic).bindPopup('<strong>十字廣場</strong>');
+L.marker([1359, 5967],{color: markerColors.historic}).addTo(layers.historic).bindPopup('<strong>萬新車站</strong>');
+L.marker([1460, 6110],{color: markerColors.historic}).addTo(layers.historic).bindPopup('<strong>29菜園</strong>');
 L.marker([1224, 5321]).addTo(layers.facility).bindPopup('<strong>三角窗服務站</strong>');
 L.marker([1487, 4810]).addTo(layers.performance).bindPopup('<strong>十字藝廊</strong>');
 L.marker([1412, 2388]).addTo(layers.performance).bindPopup('<strong>邊境71展間</strong>');
@@ -73,10 +83,6 @@ L.marker([2036, 3788]).addTo(layers.facility).bindPopup('<strong>廁所</strong>
 L.marker([1920, 3960]).addTo(layers.facility).bindPopup('<strong>廁所</strong>');
 L.marker([1734, 5009]).addTo(layers.facility).bindPopup('<strong>廁所</strong>');
 L.marker([1734, 5085]).addTo(layers.facility).bindPopup('<strong>廁所</strong>');
-
-
-
-
 
 
 
