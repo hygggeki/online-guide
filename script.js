@@ -55,23 +55,7 @@ const icons = {
 
 
 // ========== 導覽點標記區 ==========
-L.marker([1413, 6505],{icon: icons.historic}).addTo(layers.historic).bindPopup('<strong>寶藏巖寺</strong><br><a href="https://www.notion.so/1d0f1481438b80c48ea0e20b344327af" target="_blank">查看介紹</a>');
-L.marker([1171, 6229],{icon: icons.historic}).addTo(layers.historic).bindPopup('<strong>信箱牆</strong>');
-L.marker([1884, 4320],{icon: icons.historic}).addTo(layers.historic).bindPopup('<strong>山城廣場</strong>');
-L.marker([1984, 2376],{icon: icons.historic}).addTo(layers.historic).addTo(layers.outdoor).bindPopup('<strong>邊境小屋</strong>');
-L.marker([807, 4770],{icon: icons.historic}).addTo(layers.historic).bindPopup('<strong>涼棚</strong>');
-L.marker([821, 4050],{icon: icons.historic}).addTo(layers.historic).bindPopup('<strong>家庭電影院</strong>');
-L.marker([904, 5126],{icon: icons.historic}).addTo(layers.historic).bindPopup('<strong>寶村柑仔店</strong>');
-L.marker([928, 2348],{icon: icons.historic}).addTo(layers.historic).bindPopup('<strong>歷史斷面</strong>');
-L.marker([1171, 2220],{icon: icons.historic}).addTo(layers.historic).bindPopup('<strong>麵引子</strong>');
-L.marker([1746, 2820],{icon: icons.historic}).addTo(layers.historic).bindPopup('<strong>上光巷</strong>');
-L.marker([1368, 3098],{icon: icons.historic}).addTo(layers.historic).addTo(layers.performance).bindPopup('<strong>防空洞</strong>');
-L.marker([1004, 3634],{icon: icons.historic}).addTo(layers.historic).addTo(layers.outdoor).bindPopup('<strong>蓄水池</strong>');
-L.marker([1160, 3750],{icon: icons.historic}).addTo(layers.historic).bindPopup('<strong>機槍堡</strong>');
-L.marker([1204, 4198],{icon: icons.historic}).addTo(layers.historic).addTo(layers.outdoor).bindPopup('<strong>半樓廣場</strong>');
-L.marker([1628, 4998],{icon: icons.historic}).addTo(layers.historic).bindPopup('<strong>十字廣場</strong>');
-L.marker([1359, 5967],{icon: icons.historic}).addTo(layers.historic).bindPopup('<strong>萬新車站</strong>');
-L.marker([1460, 6110],{icon: icons.historic}).addTo(layers.historic).bindPopup('<strong>29菜園</strong>');
+
 L.marker([1224, 5321]).addTo(layers.facility).bindPopup('<strong>三角窗服務站</strong>');
 L.marker([1487, 4810]).addTo(layers.performance).bindPopup('<strong>十字藝廊</strong>');
 L.marker([1412, 2388]).addTo(layers.performance).bindPopup('<strong>邊境71展間</strong>');
@@ -110,23 +94,23 @@ L.marker([1734, 5085]).addTo(layers.facility).bindPopup('<strong>廁所</strong>
 
 
 // ========== 導覽點標記區（含 Notion 連結） ==========
-
-L.marker([1171, 6229]).addTo(layers.historic).bindPopup('<strong>信箱牆</strong><br><a href="https://www.notion.so/1d0f1481438b8048bdb5e1a2e3fc5ebe" target="_blank">查看介紹</a>');
-L.marker([1884, 4320]).addTo(layers.historic).bindPopup('<strong>山城廣場</strong><br><a href="https://www.notion.so/1d1f1481438b80a18c2ac431dc5d68ac" target="_blank">查看介紹</a>');
-L.marker([1984, 2376]).addTo(layers.historic).addTo(layers.outdoor).bindPopup('<strong>邊境小屋</strong><br><a href="https://www.notion.so/1d1f1481438b8088a7a1e1786fab93e1" target="_blank">查看介紹</a>');
-L.marker([807, 4770]).addTo(layers.historic).bindPopup('<strong>涼棚</strong><br><a href="https://www.notion.so/1d0f1481438b80aeb37ec8af587bb96e" target="_blank">查看介紹</a>');
-L.marker([821, 4050]).addTo(layers.historic).bindPopup('<strong>家庭電影院</strong><br><a href="https://www.notion.so/1d0f1481438b806d907ac4d353b4f446" target="_blank">查看介紹</a>');
-L.marker([904, 5126]).addTo(layers.historic).bindPopup('<strong>寶村柑仔店</strong><br><a href="https://www.notion.so/1d0f1481438b808aa6f0cd908a5e7175" target="_blank">查看介紹</a>');
-L.marker([928, 2348]).addTo(layers.historic).bindPopup('<strong>歷史斷面</strong><br><a href="https://www.notion.so/1d0f1481438b801282dbdbcaae09cb59" target="_blank">查看介紹</a>');
-L.marker([1171, 2220]).addTo(layers.historic).bindPopup('<strong>麵引子</strong><br><a href="https://www.notion.so/1d0f1481438b807e90eec477d200ff87" target="_blank">查看介紹</a>');
-L.marker([1746, 2820]).addTo(layers.historic).bindPopup('<strong>上光巷</strong><br><a href="https://www.notion.so/1d0f1481438b808fb76dde639e959f05" target="_blank">查看介紹</a>');
-L.marker([1368, 3098]).addTo(layers.historic).addTo(layers.performance).bindPopup('<strong>防空洞</strong><br><a href="https://www.notion.so/1d0f1481438b80acb886ec254b5ac4b7" target="_blank">查看介紹</a>');
-L.marker([1004, 3634]).addTo(layers.historic).addTo(layers.outdoor).bindPopup('<strong>蓄水池</strong><br><a href="https://www.notion.so/1d0f1481438b803d85f3e12927b6b9ed" target="_blank">查看介紹</a>');
-L.marker([1160, 3750]).addTo(layers.historic).bindPopup('<strong>機槍堡</strong><br><a href="https://www.notion.so/1d0f1481438b80118e76ee0ea88b1393" target="_blank">查看介紹</a>');
-L.marker([1204, 4198]).addTo(layers.historic).addTo(layers.outdoor).bindPopup('<strong>半樓廣場</strong><br><a href="https://www.notion.so/1d0f1481438b80268b6fe9daf0dfa220" target="_blank">查看介紹</a>');
-L.marker([1628, 4998]).addTo(layers.historic).bindPopup('<strong>十字廣場</strong><br><a href="https://www.notion.so/1d0f1481438b807ebca5fb1f4fc6abcf?pvs=4" target="_blank">查看介紹</a>');
-L.marker([1359, 5967]).addTo(layers.historic).bindPopup('<strong>萬新車站</strong><br><a href="https://www.notion.so/1d0f1481438b80a19da4efff0ea9d240" target="_blank">查看介紹</a>');
-L.marker([1460, 6110]).addTo(layers.historic).bindPopup('<strong>29菜園</strong><br><a href="https://www.notion.so/29-1d0f1481438b80dd9901fae8473d92b5" target="_blank">查看介紹</a>');
+L.marker([1413, 6505],{icon: icons.historic}).addTo(layers.historic).bindPopup('<strong>寶藏巖寺</strong><br><a href="https://www.notion.so/1d0f1481438b80c48ea0e20b344327af" target="_blank">查看介紹</a>');
+L.marker([1171, 6229],{icon: icons.historic}).addTo(layers.historic).bindPopup('<strong>信箱牆</strong><br><a href="https://www.notion.so/1d0f1481438b8048bdb5e1a2e3fc5ebe" target="_blank">查看介紹</a>');
+L.marker([1884, 4320],{icon: icons.historic}).addTo(layers.historic).bindPopup('<strong>山城廣場</strong><br><a href="https://www.notion.so/1d1f1481438b80a18c2ac431dc5d68ac" target="_blank">查看介紹</a>');
+L.marker([1984, 2376],{icon: icons.historic}).addTo(layers.historic).addTo(layers.outdoor).bindPopup('<strong>邊境小屋</strong><br><a href="https://www.notion.so/1d1f1481438b8088a7a1e1786fab93e1" target="_blank">查看介紹</a>');
+L.marker([807, 4770],{icon: icons.historic}).addTo(layers.historic).bindPopup('<strong>涼棚</strong><br><a href="https://www.notion.so/1d0f1481438b80aeb37ec8af587bb96e" target="_blank">查看介紹</a>');
+L.marker([821, 4050],{icon: icons.historic}).addTo(layers.historic).bindPopup('<strong>家庭電影院</strong><br><a href="https://www.notion.so/1d0f1481438b806d907ac4d353b4f446" target="_blank">查看介紹</a>');
+L.marker([904, 5126],{icon: icons.historic}).addTo(layers.historic).bindPopup('<strong>寶村柑仔店</strong><br><a href="https://www.notion.so/1d0f1481438b808aa6f0cd908a5e7175" target="_blank">查看介紹</a>');
+L.marker([928, 2348],{icon: icons.historic}).addTo(layers.historic).bindPopup('<strong>歷史斷面</strong><br><a href="https://www.notion.so/1d0f1481438b801282dbdbcaae09cb59" target="_blank">查看介紹</a>');
+L.marker([1171, 2220],{icon: icons.historic}).addTo(layers.historic).bindPopup('<strong>麵引子</strong><br><a href="https://www.notion.so/1d0f1481438b807e90eec477d200ff87" target="_blank">查看介紹</a>');
+L.marker([1746, 2820],{icon: icons.historic}).addTo(layers.historic).bindPopup('<strong>上光巷</strong><br><a href="https://www.notion.so/1d0f1481438b808fb76dde639e959f05" target="_blank">查看介紹</a>');
+L.marker([1368, 3098],{icon: icons.historic}).addTo(layers.historic).addTo(layers.performance).bindPopup('<strong>防空洞</strong><br><a href="https://www.notion.so/1d0f1481438b80acb886ec254b5ac4b7" target="_blank">查看介紹</a>');
+L.marker([1004, 3634],{icon: icons.historic}).addTo(layers.historic).addTo(layers.outdoor).bindPopup('<strong>蓄水池</strong><br><a href="https://www.notion.so/1d0f1481438b803d85f3e12927b6b9ed" target="_blank">查看介紹</a>');
+L.marker([1160, 3750],{icon: icons.historic}).addTo(layers.historic).bindPopup('<strong>機槍堡</strong><br><a href="https://www.notion.so/1d0f1481438b80118e76ee0ea88b1393" target="_blank">查看介紹</a>');
+L.marker([1204, 4198],{icon: icons.historic}).addTo(layers.historic).addTo(layers.outdoor).bindPopup('<strong>半樓廣場</strong><br><a href="https://www.notion.so/1d0f1481438b80268b6fe9daf0dfa220" target="_blank">查看介紹</a>');
+L.marker([1628, 4998],{icon: icons.historic}).addTo(layers.historic).bindPopup('<strong>十字廣場</strong><br><a href="https://www.notion.so/1d0f1481438b807ebca5fb1f4fc6abcf?pvs=4" target="_blank">查看介紹</a>');
+L.marker([1359, 5967],{icon: icons.historic}).addTo(layers.historic).bindPopup('<strong>萬新車站</strong><br><a href="https://www.notion.so/1d0f1481438b80a19da4efff0ea9d240" target="_blank">查看介紹</a>');
+L.marker([1460, 6110],{icon: icons.historic}).addTo(layers.historic).bindPopup('<strong>29菜園</strong><br><a href="https://www.notion.so/29-1d0f1481438b80dd9901fae8473d92b5" target="_blank">查看介紹</a>');
 L.marker([1224, 5321]).addTo(layers.facility).bindPopup('<strong>三角窗服務站</strong><br><a href="https://www.notion.so/1d0f1481438b80eb8600f2f61c6891b7" target="_blank">查看介紹</a>');
 L.marker([1487, 4810]).addTo(layers.performance).bindPopup('<strong>十字藝廊</strong><br><a href="https://www.notion.so/1d0f1481438b809db86dee8da6da4e1e" target="_blank">查看介紹</a>');
 L.marker([1412, 2388]).addTo(layers.performance).bindPopup('<strong>邊境71展間</strong><br><a href="https://www.notion.so/71-1d1f1481438b80298b25ea3f9b52b7c6" target="_blank">查看介紹</a>');
