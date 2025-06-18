@@ -21,7 +21,8 @@ const layers = {
 
 
 // ========== 導覽點標記區 ==========
-L.marker([1413, 6505]).addTo(layers.historic).bindPopup('<strong>寶藏巖寺</strong>');
+L.marker([1413, 6505],{radius: 8,color: '#F4A460',       // 邊框色 fillColor: '#F4A460',   // 填充色
+      fillOpacity: 1,weight: 2}).addTo(layers.historic).bindPopup('<strong>寶藏巖寺</strong>');
 L.marker([1171, 6229]).addTo(layers.historic).bindPopup('<strong>信箱牆</strong>');
 L.marker([1884, 4320]).addTo(layers.historic).bindPopup('<strong>山城廣場</strong>');
 L.marker([1984, 2376]).addTo(layers.historic).addTo(layers.outdoor).bindPopup('<strong>邊境小屋</strong>');
